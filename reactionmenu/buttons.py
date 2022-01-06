@@ -38,8 +38,6 @@ from discord.ext.commands import Command
 from .abc import _BaseButton, PaginationEmojis
 from .errors import IncorrectType
 
-
-class ViewButton(discord.ui.Button, _BaseButton):
 	"""A helper class for :class:`ViewMenu`. Represents a UI button.
 	
 	Parameters
